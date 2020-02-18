@@ -30,7 +30,7 @@ let g:airline#themes#wpgtk_alternate_true#palette.accents = {{ 'red': [ "{color0
 
 " Inactive mode
 let s:IN1 = [ "{color12}", "{color8}", 'NONE', 'NONE' ]
-let s:IN2 = [ "{color12}", "{color8}", 'NONE', 'NONE' ]
+let s:IN2 = [ "{color8}", "{color12}", 'NONE', 'NONE' ]
 
 let s:IA = [ s:IN1[1], s:IN2[1], s:IN1[2], s:IN2[3], 'NONE' ]
 let g:airline#themes#wpgtk_alternate_true#palette.inactive = airline#themes#generate_color_map(s:IA, s:IA, s:IA)
