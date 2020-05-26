@@ -11,7 +11,7 @@ if exists('syntax_on')
 endif
 
 " Colorscheme name
-let g:colors_name = 'wpgtkTrue'
+let g:colors_name = 'wpgtkAltTrue'
 
 " set t_Co=16
 highlight Normal guibg=NONE guifg={color15}
