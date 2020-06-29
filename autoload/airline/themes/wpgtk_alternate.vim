@@ -3,23 +3,23 @@ let g:airline#themes#wpgtk_alternate#palette = {}
 
 " Normal mode
 let s:N  = [ '', '', 0, 12, 'BOLD' ]
-let s:N2 = [ '', '', 12, 8, 'NONE' ]
-let s:N3 = [ '', '', 12, 0, 'NONE' ]
+let s:N2 = [ '', '', 0, 10, 'NONE' ]
+let s:N3 = [ '', '', 12, 8, 'NONE' ]
 
 " Insert mode
-let s:I  = [ '', '', 0, 10, 'BOLD' ]
-let s:I2 = [ '', '', 10, 8, 'NONE' ]
-let s:I3 = [ '', '', 10, 0, 'NONE' ]
+let s:I  = [ '', '', 0, 13, 'BOLD' ]
+let s:I2 = [ '', '', 0, 10, 'NONE' ]
+let s:I3 = [ '', '', 13, 8, 'NONE' ]
 
 " Visual mode
 let s:V  = [ '', '', 0, 9, 'BOLD' ]
-let s:V2 = [ '', '', 9, 8, 'NONE' ]
-let s:V3 = [ '', '', 9, 0, 'NONE' ]
+let s:V2 = [ '', '', 0, 10, 'NONE' ]
+let s:V3 = [ '', '', 9, 8, 'NONE' ]
 
 " Replace mode
 let s:R  = [ '', '', 0, 13, 'BOLD' ]
-let s:R2 = [ '', '', 13, 8, 'NONE' ]
-let s:R3 = [ '', '', 13, 0, 'NONE' ]
+let s:R2 = [ '', '', 0, 10, 'NONE' ]
+let s:R3 = [ '', '', 13, 8, 'NONE' ]
 
 let g:airline#themes#wpgtk_alternate#palette.normal  = airline#themes#generate_color_map(s:N, s:N2, s:N3)
 let g:airline#themes#wpgtk_alternate#palette.insert  = airline#themes#generate_color_map(s:I, s:I2, s:I3)
@@ -49,10 +49,10 @@ let g:airline#themes#wpgtk_alternate#palette.replace.airline_error = s:WI
 
 " Tabline
 let g:airline#themes#wpgtk_alternate#palette.tabline = {
-      \ 'airline_tab':     [ '', '', 12, 0, 'BOLD' ],
+      \ 'airline_tab':     [ '', '', 12, 8, 'BOLD' ],
       \ 'airline_tabsel':  [ '', '', 0, 12, 'BOLD' ],
       \ 'airline_tabtype': [ '', '', 0, 12, 'BOLD' ],
-      \ 'airline_tabfill': [ '', '', 12, 0, 'BOLD' ],
+      \ 'airline_tabfill': [ '', '', 12, 8, 'BOLD' ],
       \ 'airline_tabmod':  [ '', '', 0, 12, 'BOLD' ]
 \ }
 
